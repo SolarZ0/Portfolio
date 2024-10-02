@@ -1,0 +1,82 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+  
+
+
+    font-family: "Bebas Neue", sans-serif;
+    
+     background-color: #356943; 
+    color: #a4ebb7;
+       font-stretch: expanded;
+
+
+	
+}
+
+
+#container {
+ 
+    
+ height: 350px;
+  width: 100%;
+  background-color: #a4ebb7;
+    
+    h4 {
+position:fixed;
+  top: 0px;
+  left: 50px;
+font-size: 200px;
+color: #356943; 
+
+        
+        
+    }
+     h5 {
+position:fixed;
+  top: 230px;
+  left: 700px;
+    font-size: 170px;
+        
+        
+    }
+    
+      h6 {
+position:fixed;
+  top: 275px;
+  left: 400px;
+    font-size: 50px;
+    }
+    
+      p  {
+position:fixed;
+  bottom: 50px;
+  left: 10px;
+    font-size: 30px;
+     text-decoration: underline;
+    }
+    
+   
+   
+   
+
+	
+}
+
+
+
+
