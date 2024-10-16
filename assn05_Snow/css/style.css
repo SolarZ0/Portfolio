@@ -1,0 +1,241 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	
+
+}
+
+
+#container {
+	
+   height: 100%;
+    width: 100%;
+    margin: auto;
+    background-color: #ded2c1;
+    border: 20px, #555;  
+    
+    
+    .circle1 {
+  height: 100px;
+  width: 100px;
+  background-color: #555;
+  border-radius: 50%;
+  position: absolute;
+  top: 80px;
+  right: 0;
+    }
+    .circle1:hover{
+        
+        background: #5dace8;
+        transition: all 500ms;
+        transform: translate(-250px,125px) scale(2.5);
+         filter: opacity(0%);
+        transition: all 2s;
+        
+       
+      
+    }
+     .circle2 {
+  height: 175px;
+  width: 175px;
+  background-color: #555;
+  border-radius: 50%;
+  position: absolute;
+  top: 125px;
+  right:225px;
+    }
+      .circle2:hover{
+        
+        background: #5dace8;
+        transition: all 500ms;
+         transform: translate(-400px,200px) scale(2);
+           filter: opacity(0%);
+        transition: all 2s;
+        
+    }
+    
+      .circle3 {
+  height: 300px;
+  width: 300px;
+  background-color: #555;
+  border-radius: 50%;
+  position: absolute;
+  top: 250px;
+  right:575px;
+    }
+      .circle3:hover{
+        
+        background: #5dace8;
+        transition: all 500ms;
+        transform: translate(-180px,90px) scale(1.5);
+        filter: opacity(0%);
+        transition: all 2s;
+    }
+    
+    .rectangle1 {
+  height: 50px;
+  width: 800px;
+  background-color: #555;
+ position: absolute;
+  top: 700px;
+  right:600px;
+    }
+    .rectangle1:hover{
+   
+background: #61ba96;
+clip-path: xywh(0 5px 100% 75% round 50% 0);
+transition: all 1s;
+        
+        
+    
+    }
+    
+    
+    
+        
+        .rectangle2 {
+  height: 50px;
+  width: 400px;
+  background-color: #555;
+ position: absolute;
+  top: 600px;
+  right:1000px;
+        
+        
+}
+    .rectangle2:hover{
+        
+        
+        background: #61ba96;
+       clip-path: xywh(0 5px 100% 75% round 50% 0); 
+        transition: all 1s;
+    }
+    
+       .rectangle3 {
+  height: 50px;
+  width: 300px;
+  background-color: #555;
+ position: absolute;
+  top: 500px;
+  right:1100px;
+        
+        
+}
+    .rectangle3:hover{
+        
+        
+        
+      clip-path: xywh(0 5px 100% 75% round 50% 0); 
+        background: #61ba96;
+        transition: all 2s;
+        
+    }
+    
+    
+  
+ 
+    .triangle1 {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 300px solid #555;
+    position: absolute;
+  top: 50px;
+  left:50px;
+}
+       .triangle1:hover{
+   
+    transform:scaleY(1.15)
+  
+        
+    
+    }
+    
+      .triangle2 {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 300px solid #555;
+    position: absolute;
+  top: 50px;
+  left: 100px;
+}
+    .triangle2:hover{
+   
+    transform:scaleY(1.15)
+  
+    }
+    
+     .triangle3 {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 300px solid #555;
+    position: absolute;
+  top: 50px;
+  left: 150px;
+}
+    .triangle3:hover{
+   
+    transform:scaleY(1.15)
+
+    }
+  .triangle4 {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 300px solid #555;
+    position: absolute;
+  top: 50px;
+  left: 200px;
+}
+    .triangle4:hover{
+   
+    transform:scaleY(1.15)
+
+    }
+        
+      .triangle5 {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 300px solid #555;
+    position: absolute;
+  top: 50px;
+  left: 250px;
+}
+    .triangle5:hover{
+   
+    transform:scaleY(1.15)
+
+    }
+        
+
+
+        
+    }
+    
+}
+
+
+
+
