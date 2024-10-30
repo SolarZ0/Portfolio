@@ -16,7 +16,7 @@ html {
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
 
 body {
-	background-image: url("img/trianglepattern.jpg"); 
+  background-image: url("img/trianglepattern.jpg");
     font-family:"Fira Sans";
 	
 }
