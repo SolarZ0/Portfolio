@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>***</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	
+</head>
+    <header>
+   <h1>AudioMed Mission Statement</h1> 
+    
+    </header>
+
+
+<body>
+
+  <div id="container">
+      
+<div id="introText">
+      
+<h2>At AudioMed, our mission is to revolutionize the world of audio
+    technology through innovative wired solutions that prioritize quality, safety, and health.</h2>
+      
+    </div>
+      
+      
+  <button id="paraButton">Read More </button>
+
+
+
+
+  
+    
+  <div id="hiddenPara">    
+      <p>We are dedicated to creating cutting-edge audio equipment that deliversunparalleled sound experiences while simultaneously funding and conductingresearch into the safety and therapeutic benefits of audio technology. Bybridging the gap between sound and wellness, we strive to enhance lives, promote well-being, and ensure that our products contribute positively to thehealth of our users and communities.</p>
+    </div>
+    
+      <button id="logoButton">See Logo </button>
+    
+    
+     <figure id="hiddenLogo"  >
+       <img src="img/AudioDownloadLogo.png" style="width:auto"> 
+    </figure>
+    
+    
+      <button id="nameButton">More Info </button>
+    
+    
+     <div id="hiddenName">   
+         <h3>AudioDownload powered by AudioMed &#169;</h3>
+  
+    </div>
+      
+      <footer>
+      Shiva Snow 2024 &#169;
+      
+      </footer>
+      
+  </div><!-- close "container" -->
+    
+    
+<!-- Link to jQuery on Google CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+<script>
+  $(document).ready(function() {
+
+ $("p").hide();
+$("img").hide();
+$("h3").hide();
+      
+$("#paraButton").click(function() {
+    
+$("p").slideToggle();
+    
+
+}); //close click()
+      
+ $("#logoButton").click(function() {
+    
+$("img").slideToggle();
+
+     }); //close click
+      
+            
+ $("#nameButton").click(function() {
+    
+$("h3").slideToggle();
+
+     }); //close click
+
+  }); //close .ready()
+</script>
+
+
+</body>
+	
+</html> 
