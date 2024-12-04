@@ -1,0 +1,177 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+	
+	background: #FEDAA5;
+font-family: 'Karantina'; 
+}
+
+
+header{
+    
+   
+padding: 25px;
+ background: #31BAA3;  
+}
+
+.NavigationBar ul{
+    
+    list-style-type: none;
+    background-color: #31BAA3;
+    padding: 0px; 
+    margin: 0px;
+    overflow: hidden;
+    font-size: 1.5em; 
+    letter-spacing: 2px;
+
+    
+    
+}
+
+.NavigationBar a{
+    
+    color: #90D4CC; 
+    text-decoration: none;
+    padding: 10px; 
+    display: block; 
+}
+
+.NavigationBar a:hover{
+    
+    background-color: #90D4CC;
+    color: #31BAA3;
+    border-radius: 15px;
+    
+}
+
+.NavigationBar li{
+    float: right; 
+}
+
+img {
+    
+    width: 75%;
+    border-radius: 50%;
+    border: 5px solid #F28B77;
+    margin: auto;
+}
+
+h1 {
+    
+    line-height:1.25em; 
+    background: #F28B77;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 30px;
+    font-family: 'Kadwa';
+ 
+    
+}
+
+p {
+    
+ background: #F28B77;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 15px;
+     letter-spacing:normal;
+    font-size: 1.5em;
+}
+
+footer{ 
+
+     padding: 15px;
+color: #ECECEC;
+ background: #31BAA3;   
+
+}
+#container {
+	
+}
+
+
+
+
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+    img {
+        
+        float: right ;
+        width: 30%;
+        overflow: hidden;
+    }
+    
+    .container {
+        
+        float: left;
+        width: 30%;
+        overflow: hidden;
+        margin-right: 200px;
+    }
+    
+    footer {
+        
+        clear: both;
+      position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+        
+        
+    
+    }
+    
+    h1{
+        
+        background: none;
+        color: #F28B77;
+    }
+    
+    
+
+    
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	
+	
+	
+} /* closes 1024px+ */
+
+
+

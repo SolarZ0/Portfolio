@@ -1,0 +1,195 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+	
+background: #FEDAA5;
+font-family: 'Karantina'; 
+    
+}
+
+.Logo1 {
+    
+   position: absolute;
+  top: 0px;
+  left: 0px;
+  align-self:flex-start;
+    
+    
+}
+
+.NavigationBar ul{
+    
+    list-style-type: none;
+    background-color: #31BAA3;
+    padding: 0px; 
+    margin: 0px;
+    overflow: hidden;
+    font-size: 1.5em; 
+    letter-spacing: 2px;
+
+    
+    
+}
+
+.NavigationBar a{
+    
+    color: #90D4CC; 
+    text-decoration: none;
+    padding: 10px; 
+    display: block; 
+}
+
+.NavigationBar a:hover{
+    
+    background-color: #90D4CC;
+    color: #31BAA3;
+    border-radius: 15px;
+    
+}
+
+.NavigationBar li{
+    float: right; 
+}
+
+
+#container {
+	
+
+}
+
+
+img{ 
+width: 85%;
+margin: auto;
+padding: 30px;
+
+}
+p {
+    
+ background: #F28B77;
+ padding: 25px;
+color: #ECECEC;
+border-radius: 20px;
+margin: 20px;
+letter-spacing: 1.5px;
+font-size: 1.4em;
+font-weight: 150;
+}
+
+header{ 
+
+padding: 30px;
+ background: #31BAA3;  
+
+}
+
+h1 {
+    
+    color:#F28B77; 
+    font-size: 4em;
+    line-height: 1em;
+    margin: 20px;
+}
+
+footer{
+    
+    padding: 15px;
+color: #ECECEC;
+ background: #31BAA3;   
+    font-weight: 150;
+    font-size: 1.15em;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+    
+    
+ 
+	
+    .container1{
+        
+        
+        color: aqua;
+    }
+    
+    img {
+
+    float: right;
+        width:30%;
+        margin 50px;
+     }
+    
+    p {
+        
+        float: left;
+        width:40%;
+        margin-bottom: 0px;
+        margin-left: 100px;
+      
+     
+    }
+    
+    h1 {
+        float:left;
+        margin-left: 50px;
+    }
+    
+    footer{
+        
+        clear: both;
+      position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+        
+    }
+    
+    
+    
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	
+	
+	
+} /* closes 1024px+ */
+
+
+

@@ -1,0 +1,153 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+	
+background: #F28B77;
+font-family: 'Karantina'; 
+
+}
+
+.NavigationBar ul{
+    
+    list-style-type: none;
+    background-color: #31BAA3;
+    padding: 0px; 
+    margin: 0px;
+    overflow: hidden;
+    font-size: 1.5em; 
+    letter-spacing: 2px;
+
+    
+    
+}
+
+.Logo1 {
+    
+   position: absolute;
+  top: 10px;
+  left: 10px;
+  align-self:flex-start;
+    
+    
+}
+
+
+.NavigationBar a{
+    
+    color: #90D4CC; 
+    text-decoration: none;
+    padding: 10px; 
+    display: block; 
+}
+
+.NavigationBar a:hover{
+    
+    background-color: #90D4CC;
+    color: #31BAA3;
+    border-radius: 15px;
+    
+}
+
+.NavigationBar li{
+    float: right; 
+}
+
+
+h1 {
+    
+    line-height:1.25em; 
+    background: #FEDAA5;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 30px;
+    font-family: 'Kadwa';
+ 
+    
+}
+
+
+p {
+    
+ background: #FEDAA5;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 15px;
+     letter-spacing:normal;
+    font-size: 1.5em;
+}
+header{ 
+padding: 30px;
+ background: #31BAA3;  
+
+}
+
+footer{
+    
+ padding: 15px;
+color: #ECECEC;
+ background: #31BAA3;   
+}
+}
+
+#container {
+	
+}
+
+
+
+
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+    .research1{
+        
+        float: left; 
+        width: 30%;
+        overflow:hidden;
+        
+    }
+    
+ 
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	
+	
+	
+} /* closes 1024px+ */
+
+
+

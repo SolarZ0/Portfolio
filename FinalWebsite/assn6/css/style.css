@@ -1,0 +1,164 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+	background-image: url("file:///Users/shivasnow/Desktop/web dev/trianglepattern.jpg"); 
+    font-family:"Fira Sans";
+	
+}
+
+
+#container {
+	background: none; 
+    padding:20px;
+    
+}
+
+
+section{
+    border: 1px solid black;
+    margin-bottom: 1em;
+    
+    
+}
+
+header{ 
+
+padding: 10px;
+font-size:2em;
+line-height: 1.6em;
+font-family:"Bebas Neue";
+}
+header, footer {
+    
+    background: #71c3e3;
+    padding: 10px;
+}
+
+main header{
+    
+    background: none;
+    font-size: 1.3em;
+    
+}
+
+main{
+    
+    padding: 20px;
+}
+
+p {
+    
+    margin: 10px;
+}
+
+section#MyWriting{
+    
+    background:#76a3b5;
+}
+section#OtherWriting{
+    
+    background:#76a3b5;
+}
+
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+    
+	background: solid white;
+    
+    #container {
+
+        width: 725px;
+        margin: auto;
+        
+        
+    }
+    
+    header, footer {
+        
+        
+        background: none;
+    }
+	
+    #container>header h1{
+        
+        color: solid white;
+    }
+    
+    section#OtherWriting{
+        
+        background:#76a3b5;
+    }
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+    #container{
+        
+    
+   
+    }
+    
+    section#OtherWriting {
+        
+        float: left;
+        width:40%;
+     
+    }
+    
+    section#MyWriting {
+        
+        float: right;
+        width:40%;
+        
+    }
+    
+    .mobile{
+        
+    }
+    
+    .desktop{
+        
+    }
+    
+    footer{
+        
+        clear:both;
+    }
+	
+	
+} /* closes 1024px+ */
+
+
+
