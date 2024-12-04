@@ -28,6 +28,16 @@ padding: 25px;
  background: #31BAA3;  
 
 }
+
+.Logo1 {
+    
+   position: absolute;
+  top: 0px;
+  left: 0px;
+  align-self:flex-start;
+    
+    
+}
 .NavigationBar ul{
     
     list-style-type: none;
